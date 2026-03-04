@@ -1,0 +1,58 @@
+header{
+ background: #BBBBBB;
+ padding: 20px;
+}
+
+body{
+    position: relative;
+    width: 1080px;
+    margin: 0;
+}
+
+nav{
+
+    position: absolute;
+    top: 110px;
+    padding: 10 0 10 110px;
+}
+
+nav a{
+    display: inline-block;
+    margin-left: 200px;
+    font-size: 150%;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 900;
+    color: black;
+}
+
+nav a:hover{
+    font-size: 34px;
+    color: #CD853F;
+    text-decoration: underline;
+}
+.produtos li{
+    border: 3px solid black;
+    border-radius: 15px;
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    padding: 50px 0 50px 0;
+    margin: 1%;
+}
+.produtos li:hover{
+    border-color: peru;
+}
+
+li:hover{
+    font-size: 110%;
+}
+
+.descricao{
+    font-size: 14px;
+}
+
+.preco{
+    font-size: 30px;
+    font-weight: bold;
+}
